@@ -15,6 +15,7 @@ export function Footer() {
     company: [
       { name: "About Us", path: "/about" },
       { name: "Our Team", path: "/about" },
+      { name: "Quizz", path: "/quizz" },
     ],
     resources: [
       { name: "Agile Guide", path: "#" },
@@ -173,7 +174,7 @@ export function Footer() {
           transition={{ delay: 0.6 }}
         >
           <div className="text-gray-400 text-sm">
-            © {currentYear} RocketTeam Academy. All rights reserved.
+            © {currentYear} RocketTeam. All rights reserved.
           </div>
 
           <div className="flex items-center gap-2 text-gray-400 text-sm">

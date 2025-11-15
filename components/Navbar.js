@@ -59,6 +59,21 @@ export function Navbar() {
                 />
               )}
             </Link>
+
+            <Link
+              href="/quizz"
+              className={`relative ${
+                isActive("/quizz") ? "text-indigo-600" : "text-gray-700"
+              } hover:text-indigo-600 transition-colors`}
+            >
+              Quizz
+              {isActive("/quizz") && (
+                <motion.div
+                  className="absolute -bottom-1 left-0 right-0 h-0.5 bg-gradient-to-r from-indigo-600 to-purple-600"
+                  layoutId="navbar-indicator"
+                />
+              )}
+            </Link>
           </div>
 
           {/* Mobile Button */}
@@ -103,6 +118,18 @@ export function Navbar() {
               }`}
             >
               About Us
+            </Link>
+
+            <Link
+              href="/quizz"
+              onClick={() => setIsOpen(false)}
+              className={`block px-3 py-2 rounded-md ${
+                isActive("/quizz")
+                  ? "bg-indigo-50 text-indigo-600"
+                  : "text-gray-700"
+              }`}
+            >
+              Quizz
             </Link>
           </div>
         </motion.div>
