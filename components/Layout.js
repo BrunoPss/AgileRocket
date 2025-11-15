@@ -13,7 +13,7 @@ export default function Layout({ children }) {
         <meta name="theme-color" content="#6366F1" />
       </Head>
       <Navbar />
-      <main class="h-screen p-5">{children}</main>
+      <main className="h-screen p-5">{children}</main>
       <Footer />
     </>
   );
