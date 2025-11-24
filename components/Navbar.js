@@ -136,7 +136,6 @@ export function Navbar() {
             >
               About Us
             </Link>
-            npm run dev
             {/* T2.9 TASK: LINK ADDED HERE (Mobile) */}
             <Link
               href="/agile-coach"
