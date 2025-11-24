@@ -137,7 +137,7 @@ export function Navbar() {
               About Us
             </Link>
             
-            {/* 🔴 T2.9 EKLEMESİ: AGILE COACH (Mobile) */}
+            {/* T2.9 TASK: LINK ADDED HERE (Mobile) */}
             <Link
               href="/agile-coach"
               onClick={() => setIsOpen(false)}
