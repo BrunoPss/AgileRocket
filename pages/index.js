@@ -1,14 +1,13 @@
 import React from 'react';
-import Link from "next/link";
 import { 
   Target, Users, Lightbulb, TrendingUp, CheckCircle2, Activity 
 } from 'lucide-react';
 
 export default function Home() {
   return (
-    <div className="min-h-screen font-sans text-gray-800 bg-white">
+    <div className="min-h-screen font-sans text-gray-800 bg-transparent">
       {/* Transform Teams Section */}
-      <section className="bg-gradient-to-b from-blue-50 to-white py-20 px-4 text-center">
+      <section className="py-20 px-4 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-6 leading-tight text-gray-900">
             Transform Teams with <br />
@@ -18,23 +17,22 @@ export default function Home() {
             Empower your organization to embrace agility, foster collaboration, and deliver exceptional results through proven coaching methodologies.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Link href="/quizz">
+            <a href="/quizz">
               <button className="px-8 py-3 bg-blue-600 text-white rounded-full font-semibold hover:bg-blue-700 transition">
                 Test Your Knowledge
               </button>
-            </Link>
-            <Link href="/agile-coach">
-              {/* Note: Change this Link later to point to the Agile Coach page */}
+            </a>
+            <a href="/agile-coach">
               <button className="px-8 py-3 bg-white text-gray-700 border border-gray-300 rounded-full font-semibold hover:bg-gray-50 transition">
                 Learn More
               </button>
-            </Link>
+            </a>
           </div>
         </div>
       </section>
 
       {/* Core Agile Principles Section */}
-      <section className="py-16 px-4 bg-white">
+      <section className="py-16 px-4">
         <div className="max-w-6xl mx-auto text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">Core Agile Principles</h2>
           <p className="text-lg text-gray-600 mb-10 max-w-2xl mx-auto">
@@ -49,7 +47,8 @@ export default function Home() {
             </p>
           </div>
         </div>
-         {/* Grid of Cards */}
+        
+        {/* Grid of Cards */}
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-4">
           <div className="p-6 border border-gray-100 rounded-xl shadow-sm bg-white text-left">
             <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4 text-blue-600"><Target size={24} /></div>
@@ -91,7 +90,7 @@ export default function Home() {
       </section>
 
       {/* Agile Coach vs Scrum Master Section */}
-      <section className="py-16 px-4 bg-indigo-50">
+      <section className="py-16 px-4 bg-transparent">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-2xl font-bold text-indigo-900 mb-8 ml-4">Agile Coach vs Scrum Master</h2>
           
@@ -164,14 +163,13 @@ export default function Home() {
           <p className="text-blue-100 mb-8 text-lg">
             Test your knowledge with our interactive quiz or chat with our AI assistant.
           </p>
-          <Link href="/quizz">
+          <a href="/quizz">
             <button className="px-8 py-3 bg-white text-blue-600 rounded-full font-bold hover:bg-blue-50 transition shadow-md">
               Take the Quiz
             </button>
-          </Link>
+          </a>
         </div>
       </section>
-    </div>
-  );
+    </div>
+  );
 }
-
