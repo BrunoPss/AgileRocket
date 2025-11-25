@@ -14,7 +14,7 @@ const Quiz = () => {
     wrongAnswers: 0,
   });
 
-  const { questions } = quiz;
+  const { questions } = quizData;
 
   const [questionSet, setQuestionSet] = useState([]);
 
