@@ -34,7 +34,7 @@ export default function About() {
       name: "Bruno Fonseca",
       role: "Developer",
       email: "a2021129658@isec.pt",
-      bio: "2021129658",
+      bio: "",
       colors: {
         bg: "from-blue-50 to-indigo-50",
         text: "from-blue-600 to-indigo-600",
@@ -45,7 +45,7 @@ export default function About() {
       name: "Bruno Guiomar",
       role: "Product Owner / Developer",
       email: "a2021137345@isec.pt",
-      bio: "2021137345",
+      bio: "",
       colors: {
         bg: "from-pink-50 to-rose-50",
         text: "from-pink-600 to-rose-600",
@@ -56,7 +56,7 @@ export default function About() {
       name: "Eylül Ateş",
       role: "Developer",
       email: "a2025114252@isec.pt",
-      bio: "2025114252",
+      bio: "",
       colors: {
         bg: "from-emerald-50 to-teal-50",
         text: "from-emerald-600 to-teal-600",
@@ -67,7 +67,7 @@ export default function About() {
       name: "Marina Baltar",
       role: "Developer",
       email: "a21280992@isec.pt",
-      bio: "21280992",
+      bio: "",
       colors: {
         bg: "from-orange-50 to-amber-50",
         text: "from-orange-600 to-amber-600",
@@ -78,7 +78,7 @@ export default function About() {
       name: "Rui Gonçalves",
       role: "Scrum Master / Developer",
       email: "a21250802@isec.pt",
-      bio: "21250802",
+      bio: "",
       colors: {
         bg: "from-violet-50 to-purple-50",
         text: "from-violet-600 to-purple-600",

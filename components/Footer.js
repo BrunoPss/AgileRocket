@@ -14,15 +14,13 @@ export function Footer() {
   const footerLinks = {
     company: [
       { name: "About Us", path: "/about" },
-      { name: "Our Team", path: "/about" },
       { name: "Quizz", path: "/quizz" },
     ],
     resources: [
-      { name: "Agile Guide", path: "#" },
-      { name: "Documentation", path: "#" },
+      { name: "Agile Guide", path: "/agile-coach" },
     ],
     social: [
-      { name: "Github", icon: Github, href: "#" },
+      { name: "Github", icon: Github, href: "https://github.com/BrunoPss/AgileRocket" },
     ],
   };
 
@@ -95,7 +93,7 @@ export function Footer() {
 
           {/* Company Links */}
           <motion.div variants={itemVariants}>
-            <h3 className="font-display text-lg mb-4 text-white">Company</h3>
+            <h3 className="font-display text-lg mb-4 text-white">Team</h3>
             <ul className="space-y-3">
               {footerLinks.company.map((link) => (
                 <li key={link.name}>
