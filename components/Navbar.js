@@ -4,10 +4,11 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import { Logo } from "./Logo";
+import { Logo } from "./Logo"; // Assuming this component exists in ./Logo.js
 import { motion } from "framer-motion";
 
-export function Navbar() {
+
+export function Navbar() { 
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
 
@@ -60,6 +61,22 @@ export function Navbar() {
               )}
             </Link>
 
+            {}
+            <Link
+              href="/agile-coach"
+              className={`relative ${
+                isActive("/agile-coach") ? "text-indigo-600" : "text-gray-700"
+              } hover:text-indigo-600 transition-colors`}
+            >
+              Agile Coach
+              {isActive("/agile-coach") && (
+                <motion.div
+                  className="absolute -bottom-1 left-0 right-0 h-0.5 bg-gradient-to-r from-indigo-600 to-purple-600"
+                  layoutId="navbar-indicator"
+                />
+              )}
+            </Link>
+          
             <Link
               href="/quizz"
               className={`relative ${
@@ -118,6 +135,18 @@ export function Navbar() {
               }`}
             >
               About Us
+            </Link>
+            {/* T2.9 TASK: LINK ADDED HERE (Mobile) */}
+            <Link
+              href="/agile-coach"
+              onClick={() => setIsOpen(false)}
+              className={`block px-3 py-2 rounded-md ${
+                isActive("/agile-coach")
+                  ? "bg-indigo-50 text-indigo-600"
+                  : "text-gray-700"
+              }`}
+            >
+              Agile Coach
             </Link>
 
             <Link
