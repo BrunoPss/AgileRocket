@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import quiz from './quizData';
+import quizData from '../resources/quizData';
 
 const Quiz = () => {
   const [activeQuestion, setActiveQuestion] = useState(0);
