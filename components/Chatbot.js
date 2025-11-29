@@ -37,30 +37,40 @@ useEffect(() => {
       const style = document.createElement("style");
       style.textContent = `
         #bsc-chat-container {
-            height: 70vh; 
-            max-height: 70vh;
-            border-radius: 16px !important;
-            border-left: none !important;
-            box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+          height: 70vh; 
+          max-height: 70vh;
+          border-radius: 16px !important;
+          border-left: none !important;
+          bottom: 10px;
+          right: 10px;
+          box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
         }
         #bsc-chat-container .bsc-header {
-            background: linear-gradient(166deg,rgba(97, 95, 255, 0.5) 0%, rgba(152, 16, 250, 1) 100%);
-            border-radius: 20px 20px 0 0;
+          background: linear-gradient(166deg,rgba(97, 95, 255, 0.5) 0%, rgba(152, 16, 250, 1) 100%);
+          border-radius: 20px 20px 0 0;
+          backdrop-filter: blur(10px);
         }
         #bsc-chat-container .bsc-header-details-text-title{
-            color: white !important;
+          color: white !important;
+        }
+        .bsc-chat-container-minimized{
+          bottom: 0px !important;
+          right: 0px !important;
         }
         #bsc-chat-container .bsc-header-action-minimize-icon{
-            background-color: white !important;
+          background-color: white !important;
         }
         #bsc-chat-container .bsc-header-action-close-icon{
-            background-color: white !important;
+          background-color: white !important;
         }
         #bsc-chat-container .bsc-message-list .bsc-message-list-container .bsc-local .bsc-message{
-            background-color:  #9810fab8 !important;
+          background: linear-gradient(166deg, rgb(152 16 250 / 72%) 0%, rgba(152, 16, 250, 1) 100%);
         }
         #bsc-chat-container .bsc-footer{
-            border-radius: 0 0 20px 20px;
+          border-radius: 0 0 20px 20px;
+        }
+        #bsc-chat-container .bsc-footer #bsc-footer-actions #bsc-send-button{
+          background-color:  #9810fab8 !important;
         }
       `;
 
