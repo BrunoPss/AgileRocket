@@ -83,7 +83,7 @@ export default function CertificateGenerator({ score, onResetQuiz }) {
         🎉 Congratulations!
       </h2>
       <p style={{ color: '#065f46', fontWeight: 'bold', fontSize: '18px', marginBottom: '30px' }}>
-        You scored **{score}** correct answers and passed the threshold.
+        You scored {score} correct answers and passed the threshold.
       </p>
 
       <div style={{ marginTop: '30px', marginBottom: '20px' }}>
