@@ -1,44 +1,25 @@
-# Next + Netlify Starter
+# Agile Rocket
+## Project Information
+Theme: Agile Coach
+Team Members:
+Bruno Guiomar - Product Owner
+Bruno Fonseca - Scrum Master
+Eylül Ateş - Dev
+Marina Baltar - Dev
+Rui Gonçalves - Dev
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/46648482-644c-4c80-bafb-872057e51b6b/deploy-status)](https://app.netlify.com/sites/next-dev-starter/deploys)
+## Project Goals
+The project aims to introduce and explore the world of agile coaching through an interactive experience. It begins with a presentation of the team and includes practical examples to illustrate key concepts. A core objective is to clarify the distinction between the roles of an agile coach and a scrum master, helping participants understand their contributions within agile environments. The project incorporates an interactive element (quizzes) to increase user satisfaction with the experience. Additionally, a dedicated chatbot will be developed to support users in learning about agile coaching, offering guidance, answering questions, and reinforcing core principles in a conversational way.
 
-This is a [Next.js](https://nextjs.org/) v15 project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and set up to be instantly deployed to [Netlify](https://url.netlify.com/SyTBPVamO)!
+## Vision and general requirements
+The vision of this project is to create an interactive and educational website that helps users understand the principles and practices of agile coaching. By combining informative content with playful learning tools, the project aims to demystify the role of the agile coach, highlight its differences from the scrum master, and foster a deeper appreciation for agile methodologies in real-world contexts.
 
-This project is a very minimal starter that includes 2 sample components, a global stylesheet, a `netlify.toml` for deployment, and a `jsconfig.json` for setting up absolute imports and aliases. With Netlify, you'll have access to features like Preview Mode, server-side rendering/incremental static regeneration via Netlify Functions, and internationalized routing on deploy automatically.
-
-## Table of Contents:
-
-- [Getting Started](#getting-started)
-- [Installation options](#installation-options)
-- [Testing](#testing)
-  - [Included Default Testing](#included-default-testing)
-  - [Removing Renovate](#removing-renovate)
-
-## Getting Started
-
-```bash
-git clone https://github.com/BrunoPss/AgileRocket.git
-npm install
-npm run dev
-Make your changes
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-## Testing
-
-### Included Default Testing
-
-We’ve included some tooling that helps us maintain these templates. This template currently uses:
-
-- [Renovate](https://www.mend.io/free-developer-tools/renovate/) - to regularly update our dependencies
-- [Cypress](https://www.cypress.io/) - to run tests against how the template runs in the browser
-- [Cypress Netlify Build Plugin](https://github.com/cypress-io/netlify-plugin-cypress) - to run our tests during our build process
-
-If your team is not interested in this tooling, you can remove them with ease!
-
-### Removing Renovate
-
-In order to keep our project up-to-date with dependencies we use a tool called [Renovate](https://github.com/marketplace/renovate). If you’re not interested in this tooling, delete the `renovate.json` file and commit that onto your main branch.
+## project planning
+### Tools
+To support the development and delivery of the project, the following tools and platforms were be used:
+- Jira: Used to build and manage the product backlog, define sprint backlog sheets, and track progress through burndown charts.
+- Microsoft Teams: Primary channel for team collaboration and meetings.
+- BOTSchool: Platform for building and training the agile coaching chatbot.
+- Lovable: Used to create mockups and define the product’s visual and functional aspects.
+- Netlify: Hosting platform for deploying the final product.
+- GitHub: Repository for source code management, version control, and collaboration.
