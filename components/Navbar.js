@@ -83,7 +83,7 @@ export function Navbar() {
                 isActive("/quizz") ? "text-indigo-600" : "text-gray-700"
               } hover:text-indigo-600 transition-colors`}
             >
-              Quizz
+              Quiz
               {isActive("/quizz") && (
                 <motion.div
                   className="absolute -bottom-1 left-0 right-0 h-0.5 bg-gradient-to-r from-indigo-600 to-purple-600"
@@ -158,7 +158,7 @@ export function Navbar() {
                   : "text-gray-700"
               }`}
             >
-              Quizz
+              Quiz
             </Link>
           </div>
         </motion.div>
