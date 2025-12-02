@@ -112,7 +112,7 @@ export default function CertificateGenerator({ score, onResetQuiz }) {
             marginBottom: '30px',
             transition: 'border-color 0.3s, box-shadow 0.3s'
           }}
-          // Hover ve Focus etkileri için olay dinleyicileri
+          
           onFocus={(e) => {
             e.target.style.borderColor = '#667eea';
             e.target.style.boxShadow = '0 0 0 3px rgba(102, 126, 234, 0.2)';
@@ -128,7 +128,7 @@ export default function CertificateGenerator({ score, onResetQuiz }) {
           disabled={isGenerating || !userName.trim()}
           style={{ 
             padding: '16px 40px',
-            // Quiz butonlarından alınan gradyan ve gölge stilleri
+           
             background: isGenerating 
               ? '#cbd5e0' 
               : 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
