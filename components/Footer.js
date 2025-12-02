@@ -14,7 +14,7 @@ export function Footer() {
   const footerLinks = {
     company: [
       { name: "About Us", path: "/about" },
-      { name: "Quizz", path: "/quizz" },
+      { name: "Quiz", path: "/quizz" },
     ],
     resources: [
       { name: "Agile Guide", path: "/agile-coach" },
