@@ -14,7 +14,7 @@ The project aims to introduce and explore the world of agile coaching through an
 ## Vision and general requirements
 The vision of this project is to create an interactive and educational website that helps users understand the principles and practices of agile coaching. By combining informative content with playful learning tools, the project aims to demystify the role of the agile coach, highlight its differences from the scrum master, and foster a deeper appreciation for agile methodologies in real-world contexts.
 
-## project planning
+## Project Planning
 ### Tools
 To support the development and delivery of the project, the following tools and platforms were be used:
 - Jira: Used to build and manage the product backlog, define sprint backlog sheets, and track progress through burndown charts.
